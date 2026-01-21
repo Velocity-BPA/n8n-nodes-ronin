@@ -1,0 +1,27 @@
+# Source files (dist is published)
+*.ts
+!*.d.ts
+
+# Config files
+.eslintrc.js
+.prettierrc
+tsconfig.json
+gulpfile.js
+
+# Development
+test/
+scripts/
+coverage/
+.github/
+
+# IDE
+.idea/
+.vscode/
+
+# Git
+.git/
+.gitignore
+
+# Misc
+*.log
+*.tgz
